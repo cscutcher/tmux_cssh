@@ -3,11 +3,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="tmux_cssh",
-    version="1.0",
-    packages=find_packages(),
+    author='Chris Scutcher',
+    author_email='chris.scutcher@ninebysix.co.uk',
+    url='https://github.com/cscutcher/tmux_cssh',
     description=(
         'Simple script to provide cssh/ClusterSSH like functionality using'
         ' only tmux'),
+    version="1.0",
+    packages=find_packages(),
     install_requires=[
         'sarge',
         'tmuxp',
@@ -18,5 +21,4 @@ setup(
             'tmux_cluster = tmux_cssh.cli:tmux_cluster',
         ]
     },
-    url='https://github.com/cscutcher/tmux_cssh',
 )
