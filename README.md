@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cscutcher/tmux_cssh.svg?branch=master)](https://travis-ci.org/cscutcher/tmux_cssh)
+
 tmux_cssh
 =========
 
