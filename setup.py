@@ -9,7 +9,7 @@ setup(
     description=(
         'Simple script to provide cssh/ClusterSSH like functionality using'
         ' only tmux'),
-    version="1.2.1",
+    version="1.2.2",
     packages=find_packages(),
     install_requires=[
         'argh',
