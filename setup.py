@@ -18,4 +18,5 @@ setup(
             'tmux_cluster = tmux_cssh.cli:tmux_cluster',
         ]
     },
+    url='https://github.com/cscutcher/tmux_cssh',
 )
