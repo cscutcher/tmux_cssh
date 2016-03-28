@@ -1,0 +1,14 @@
+language: python
+python:
+- '2.7'
+- '3.3'
+- pypy
+deploy:
+  provider: pypi
+  user: cscutcher
+  password:
+    secure: PiEpcekdas0gtX+0E9pn+dSr9DSIQ4dqa9S+PzMkN5vzIFliK7i0wrjFdV3lFGHNt0YIpww6QScIg6ZyV3AHFpEXwHUxrC7oFmG3rgnyQm2dFEOYvSbMzDBwogzDQWH1dEVXw1Zj60l9I/KsmDwZC1byxHnyJGc7rnWHRhytzfsUBJZWnS0uJnu6LitBx/OeNNhsvahU/HrX05b442tXGMzyRTiqCndGQN4lrbVjua76LPKnkxGGhh38e/F5Jq+190n6Emjyfprek/4FtHb3QpDOQFM7ql5LETkLWMGky6eyMpnA2ZYMSWl2eR0Q6XhpqgDlFiRNBBUw8BaeG77/q1v+LovZmFxG9FIm/b/7bI9X0lvpNFMCUHxxHPShYL/sd/BPnPfhQFyPde+l2s76pHZBIjAN7vkFfPr+qBMFwxdv7F/cvfHZs2BRhDWJALttsp46aDJW+ruY4NjScv/W7kjpShwiGRBNYHi0oLmKbBEgok+XWs9FhkbgiwKOUqTFw+3PCjYhtIvsY6KVDq8gg7Sa1YVVXGhqpw6SNTQyykojzwFqzaOkPNsKmXUdIvvBA42Ma3V4inwg0t8tan6/eNAzUOrcqNMMMYMUz0pWtn8XVfIYtG59PCJvmltLjRSigalwjN29sqhGb74pWwNwmZZADtB1vsTCHF4fjIUKUgk=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: cscutcher/tmux_cssh
